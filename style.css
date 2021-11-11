@@ -1,0 +1,65 @@
+body{
+    
+    font-family: sans-serif;
+    padding: 3vh 4vw;
+    background-color: rgb(178, 233, 212);
+}
+
+header{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 4px 4px 0 0;
+    justify-content: center;
+    text-align: center;
+    padding: 4vw;
+}
+
+h1{
+    text-decoration: underline;
+}
+
+h1 p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#survey-form{
+    
+    background-color: rgb(24, 24, 24);
+    color: white;
+    padding: 20px 4vw;
+    border-radius: 0 0 4px 4px;
+}
+
+#checkbox{
+    display: flex;
+    flex-direction: column;
+}
+
+#upperform{
+    display: flex;
+    flex-direction: column;
+}
+
+#upperform *{
+    margin: 10px;
+}
+
+.mid{
+    padding: 20px 2vw;
+}
+
+.low{
+    display: flex;
+    flex-direction: column;
+}
+.low *{
+    margin: 10px;
+}
+
+button{
+    background-color: green;
+    padding: 2vh 6vw;
+}
